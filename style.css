@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, rgb(237,28,123), rgb(242,116,33));
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.myname {
+    text-align: start;
+    font-size: 14px;
+}
+
+.main-heading {
+    font-size: 18px;
+    font-weight: 900;
+    margin: 5px 0px;
+}
+
+.headingbox {
+    background: white;
+    padding: 8px 19px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+#main-textbox {
+    height: 90px;
+    width: 198px;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    font-weight: 800;
+    resize: none;
+    font-size: 16px;
+}
+
+.send {
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px 80px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.send:active {
+    background: rgb(17, 17, 17);
+}
+
+.main_tick_icon {
+    width: 9em;
+}
+.tickicon {
+    background: white;
+    border-radius: 100%;
+}
+
+.basic-text {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+.none {
+    display: none;
+}
