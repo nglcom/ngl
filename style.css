@@ -28,23 +28,27 @@ body {
     margin: 5px 0px;
 }
 
+.box {
+    width: 180px;
+}
 .headingbox {
     background: white;
     padding: 8px 19px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    width: 180px;
+    width: 100%;
 }
+
 
 
 #main-textbox {
     height: 90px;
-    width: 198px;
+    width: 100%;
     border: none;
     outline: none;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    padding: 10px;
+    padding: 10px 19px;
     background: rgba(255, 255, 255, 0.5);
     font-weight: 800;
     resize: none;
