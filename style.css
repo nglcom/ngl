@@ -30,6 +30,7 @@ body {
 
 .box {
     width: 180px;
+    transform: translateX(-20px);
 }
 .headingbox {
     background: white;
